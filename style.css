@@ -6,3 +6,7 @@ Author URI:
 Description: A portfolio theme for presenting work and projects.
 Version: 1.0
 */
+
+body {
+    background: #FFFAFA;
+  }

@@ -27,7 +27,7 @@
             <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                 <div class="navbar-nav">
                     <?php foreach ($menuItems as $item) : ?>
-                        <a class="nav-link active" href="<?= $item->url; ?>">
+                        <a class="nav-link<?= $item->object_id == $currentPageId ? ' active' : '' ?>" href="<?= $item->url; ?>">
                             <?= $item->title; ?>
                         </a>
                     <?php endforeach ?>
